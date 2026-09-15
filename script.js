@@ -50,15 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------- Gallery (masonry + filter + lightbox) ---------------- */
   const GALLERY = [
-    { cat:'antes-depois', label:'Antes e Depois ', h:260, img:'assets/img/galeria/beje4k.jpg', },
-    { cat:'ppf', label:'Limpesa interna completa', h:320,img: 'assets/img/galeria/polimento-porshe.jpeg',},
-    { cat:'polimento',     label:'Polimento técnico ', h:220, img:'assets/img/galeria/bmw4k.jpg',}, 
-    { cat:'lavagem',       label:'Lavagem completa ', h:300, img: 'assets/img/galeria/rs34k.png',},
-    { cat:'vitrificacao',  label:'Vitrificação ', h:260, img:'assets/img/galeria/sandero4k.jpg', },
-    { cat:'antes-depois',  label:'Antes e Depois ', h:220, img:'assets/img/galeria/mercedes4k.png', },
-    { cat:'ppf',           label:'PPF ', h:280, img:'assets/img/galeria/interna_mercedes4k.png', },
-    { cat:'polimento',     label:'Polimento técnico ', h:320, img:'assets/img/galeria/audi4k.png', },
-    { cat:'vitrificacao',  label:'Vitrificação ', h:240, img:'assets/img/galeria/carpete4k.jpg', },
+    { cat:'antes-depois', label:' ', h:260, img:'assets/img/galeria/beje4k.jpg', },
+    { cat:'ppf', label:'', h:320,img: 'assets/img/galeria/polimento-porshe.jpeg',},
+    { cat:'polimento',     label:' ', h:220, img:'assets/img/galeria/bmw4k.jpg',}, 
+    { cat:'lavagem',       label:' ', h:300, img: 'assets/img/galeria/rs34k.png',},
+    { cat:'vitrificacao',  label:' ', h:260, img:'assets/img/galeria/sandero4k.jpg', },
+    { cat:'antes-depois',  label:' ', h:220, img:'assets/img/galeria/mercedes4k.png', },
+    { cat:'ppf',           label:'', h:280, img:'assets/img/galeria/interna_mercedes4k.png', },
+    { cat:'polimento',     label:' ', h:320, img:'assets/img/galeria/audi4k.png', },
+    { cat:'vitrificacao',  label:' ', h:240, img:'assets/img/galeria/carpete4k.jpg', },
   ];
   const masonry = document.getElementById('masonryGrid');
   if (masonry){
